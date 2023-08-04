@@ -49,7 +49,7 @@ class Chatbot():
         while True:
             user_input = input("How can I help you? ")
             if user_input.lower() =="quit":
-                print("by")
+                print("It's been a pleasure assisting you {name}, have a great day!")
                 break
             response = self.get_response(user_input)
             print(response)
